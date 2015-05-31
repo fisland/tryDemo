@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13194BAB1B1B5C7800933D7F /* JFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13194BAA1B1B5C7800933D7F /* JFView.m */; };
 		136428801B13772D000736C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1364287F1B13772D000736C4 /* main.m */; };
 		136428831B13772D000736C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 136428821B13772D000736C4 /* AppDelegate.m */; };
 		136428861B13772D000736C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136428851B13772D000736C4 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13194BA91B1B5C7800933D7F /* JFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JFView.h; path = ../../../../developer/demo/tryDemo/gitDemo/JFView.h; sourceTree = "<group>"; };
+		13194BAA1B1B5C7800933D7F /* JFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JFView.m; path = ../../../../developer/demo/tryDemo/gitDemo/JFView.m; sourceTree = "<group>"; };
 		1364287A1B13772D000736C4 /* gitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1364287E1B13772D000736C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1364287F1B13772D000736C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 		1364287C1B13772D000736C4 /* gitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				13194BA91B1B5C7800933D7F /* JFView.h */,
+				13194BAA1B1B5C7800933D7F /* JFView.m */,
 				136428811B13772D000736C4 /* AppDelegate.h */,
 				136428821B13772D000736C4 /* AppDelegate.m */,
 				136428841B13772D000736C4 /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				136428861B13772D000736C4 /* ViewController.m in Sources */,
 				136428831B13772D000736C4 /* AppDelegate.m in Sources */,
+				13194BAB1B1B5C7800933D7F /* JFView.m in Sources */,
 				136428801B13772D000736C4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +424,7 @@
 				1364289F1B13772D000736C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		136428A01B13772D000736C4 /* Build configuration list for PBXNativeTarget "gitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				136428A21B13772D000736C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
