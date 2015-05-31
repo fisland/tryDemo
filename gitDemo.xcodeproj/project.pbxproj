@@ -15,6 +15,7 @@
 		1364288B1B13772D000736C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1364288A1B13772D000736C4 /* Images.xcassets */; };
 		1364288E1B13772D000736C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1364288C1B13772D000736C4 /* LaunchScreen.xib */; };
 		1364289A1B13772D000736C4 /* gitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 136428991B13772D000736C4 /* gitDemoTests.m */; };
+		391F98211B1B584700113AC2 /* WJPerson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 391F981F1B1B584700113AC2 /* WJPerson.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		136428931B13772D000736C4 /* gitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		136428981B13772D000736C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		136428991B13772D000736C4 /* gitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitDemoTests.m; sourceTree = "<group>"; };
+		391F981F1B1B584700113AC2 /* WJPerson.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WJPerson.cpp; sourceTree = "<group>"; };
+		391F98201B1B584700113AC2 /* WJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJPerson.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				136428821B13772D000736C4 /* AppDelegate.m */,
 				136428841B13772D000736C4 /* ViewController.h */,
 				136428851B13772D000736C4 /* ViewController.m */,
+				391F981F1B1B584700113AC2 /* WJPerson.cpp */,
+				391F98201B1B584700113AC2 /* WJPerson.h */,
 				136428871B13772D000736C4 /* Main.storyboard */,
 				1364288A1B13772D000736C4 /* Images.xcassets */,
 				1364288C1B13772D000736C4 /* LaunchScreen.xib */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				136428861B13772D000736C4 /* ViewController.m in Sources */,
+				391F98211B1B584700113AC2 /* WJPerson.cpp in Sources */,
 				136428831B13772D000736C4 /* AppDelegate.m in Sources */,
 				13194BAB1B1B5C7800933D7F /* JFView.m in Sources */,
 				136428801B13772D000736C4 /* main.m in Sources */,
